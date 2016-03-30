@@ -7,4 +7,5 @@ Package.describe({
 Package.onUse(function(api) {
     api.addFiles('client/client.js', 'client');
     api.addFiles('server/readPlaylist.js', 'server');
+    api.addFiles('server/plexLogin.js', 'server');
 });

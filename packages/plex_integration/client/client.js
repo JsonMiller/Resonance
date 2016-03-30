@@ -1,6 +1,6 @@
 Meteor.startup(function() {
     console.log("called!");
-    Meteor.call("readPlaylists", function(err, res) {
+    Meteor.call("plexLogin", function(err, res) {
         console.log("callbacked!");
     });
 });
